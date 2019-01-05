@@ -1,19 +1,18 @@
 {
-  "name": "node",
+  "name": "api-nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "basic api nodejs and express with sql server",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Samuel de Oliveira",
   "license": "ISC",
   "dependencies": {
     "dotenv-safe": "^6.1.0",
     "mssql": "^4.3.0",
-    "mysql": "^2.16.0",
     "router": "^1.3.3"
   },
   "devDependencies": {
